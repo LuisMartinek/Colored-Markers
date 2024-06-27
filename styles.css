@@ -1,0 +1,46 @@
+
+h1 {
+    text-align: center;
+}/*Step 8 & 37 & 40*/
+
+.container {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0;
+}/*Step 21 & 25 & 27*/
+
+.marker {
+    height: 25px;
+    width: 200px;
+    margin: 10px auto;
+}/*Step 11 & 12 & 13 & 15 & 17*/
+
+.red {
+    background: linear-gradient(180deg, rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+    box-shadow: 0px 0px 20px 0px rgba(83, 14, 14, 0.8);
+}/*Step 18 & 22 & 31 & 34 & 35 & 36 & 38 & 42 & 43 & 49 & 50 & 51 & 52 & 53 & 54 & 55 & 56 & 57 & 58 & 59 & 64 & 86 & 87 & 90 & 91*/
+
+.green {
+    background: linear-gradient(#55680D, #71f53e, #116c31);
+    box-shadow: 0px 0px 20px 0px #3B7E20CC;
+}/*Step 20 & 23 & 24 & 26 & 28 & 29 & 32 & 34 & 35 & 36 & 38 & 39 & 45 & 46 & 47 & 60 & 61 & 62 & 63 & 65 & 88 & 92 & 93*/
+
+.blue {
+    background: linear-gradient( hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+    box-shadow: 0px 0px 20px 0px hsla(223, 59%, 31%, 0.8);
+}/*Step 20 & 23 & 30 & 33 & 34 & 35 & 45 & 48 & 66 & 67 & 68 & 69 & 89 & 92 & 94*/
+
+.sleeve {
+    width: 110px;
+    height: 25px; 
+    background-color: rgba(255, 255, 255, 50%);
+    border-left: 10px double rgba(0, 0, 0, 75%);
+} /*Step 71 & 72 & 73 & 74 & 75 & 79 & 80 & 81 & 82 & 83 & 84*/
+
+.cap {
+    width: 60px;
+    height: 25px;
+}/*Step 77*/
+
+.cap, .sleeve {
+    display: inline-block;
+}/*Step 78*/
